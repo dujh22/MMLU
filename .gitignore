@@ -1,4 +1,10 @@
+# 忽略项目配置
+config.py
+
+# 忽略文件
 data/auxiliary_train/
 data/dev/
 data/test/
 data/val/
+models/
+results/
