@@ -1,11 +1,16 @@
-This file contains the dev, val, and test data for our multitask test.
-The dev dataset is for few-shot learning to prime the model, and the test set the source of evaluation questions.
-The auxiliary_training data could be used for fine-tuning, something important for models without few-shot capabilities. This auxiliary training data comes from other NLP multiple choice datasets such as MCTest (Richardson et al., 2013), RACE (Lai et al., 2017), ARC (Clark et al., 2018, 2016), and OBQA (Mihaylov et al., 2018).
-Unless otherwise specified, the questions are in reference to human knowledge as of January 1st, 2020. In the far future, it may be useful to add to the prompt that the question is written for 2020 audiences.
+该文件包含多任务测试的 dev、val 和 test 数据。
+
+dev 数据集用于少量学习，为模型打基础，而测试集则是评估问题的来源。
+
+auxiliary_training 数据可用于微调，这对没有少量学习能力的模型很重要。
+
+这些辅助训练数据来自其他 NLP 多选数据集，如 MCTest（Richardson 等人，2013 年）、RACE（Lai 等人，2017 年）、ARC（Clark 等人，2018 年，2016 年）和 OBQA（Mihaylov 等人，2018 年）。
+
+除非另有说明，这些问题均以截至 2020 年 1 月 1 日的人类知识为参考。在遥远的将来，在提示语中添加 "该问题是为 2020 年的受众编写的 "可能会有所帮助。
 
 --
 
-If you find this useful in your research, please consider citing the test and also the ETHICS dataset it draws from:
+如果您发现这对您的研究有用，请考虑引用该测试及其所使用的 ETHICS 数据集：
 
 @article{hendryckstest2021,
   title={Measuring Massive Multitask Language Understanding},
